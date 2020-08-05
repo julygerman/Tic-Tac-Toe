@@ -1,0 +1,64 @@
+html, body {
+  height: 100vh;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: helvetica;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to left bottom, #d16ba5, #e17497, #eb828b, #ee9183, #eda280, #ebae7c, #e5bb7b, #dcc87f, #cbd581, #b3e38d, #92efa3, #5ffbc2);
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  color: seashell;
+}
+
+td {
+  height: 200px;
+  width: 200px;
+}
+
+td div {
+  margin: 0 auto;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+tr td:nth-child(2) {
+  border-left: 4px dotted black;
+  border-right: 4px dotted black;
+}
+
+tr:nth-child(2) td {
+  border-top: 4px dotted black;
+  border-bottom: 4px dotted black;
+}
+
+button {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: crimson;
+  color: whitesmoke;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  color: crimson;
+}
+
+lookup {
+  color: seashell;
+}
